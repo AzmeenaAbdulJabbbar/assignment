@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: calibri;
+}
+#title{
+    text-align: center;
+    background-color: lightskyblue;
+    text-shadow:1.5px 1.5px 2px white;
+    font-size: 1.5em;
+    padding: 20px;
+    font-style: italic;;
+    
+}
+
+p::first-letter {
+    font-size:300%;
+  }
+
+h3{
+    text-decoration: underline;
+}
+p a{
+    text-decoration: none;
+    font-style: italic;
+}
+a:link{
+    color:rgb(233, 233, 31);
+}
+ a:visited{
+    color: rgb(206, 96, 151);
+} 
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+a:active{
+     color: rgb(199, 48, 123);
+} 
+#footer{
+    background-color: rgb(106, 195, 250);
+    padding: 20px;
+    text-align: center;
+}
+#name{
+    color:rgb(51, 31, 233);
+}
+#name:hover{
+    color: rgb(255, 0, 0);
+}
+#work{
+    color: tomato;
+}
+#piaic{
+    color: rgb(1, 73, 1);
+}
